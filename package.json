@@ -1,22 +1,7 @@
 {
-  "name": "jbone",
-  "title": "jBone",
+  "name": "kupriyanenko-jbone",
+  "description": "JavaScript Library for DOM manipulation. Replacement jQuery for Backbone in browsers (2.5kb gzipped)",
   "version": "1.0.9",
-  "description": "Library for DOM manipulation",
-  "main": "dist/jbone.js",
-  "homepage": "https://github.com/kupriyanenko/jbone",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-mocha": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-jshint": "~0.7.1",
-    "grunt-contrib-uglify": "~0.2.5",
-    "grunt-contrib-concat": "~0.3.0",
-    "which": "~1.0.5"
-  },
   "keywords": [
     "jquery",
     "jbone",
@@ -24,14 +9,7 @@
     "javascript",
     "library"
   ],
-  "scripts": {
-    "pretest": "node build/bower-install",
-    "test": "grunt"
-  },
-  "author": "Alexey Kupriyanenko",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kupriyanenko/jbone"
-  }
+  "main": "dist/jbone.js",
+  "dependencies": {},
+  "license": "MIT"
 }
